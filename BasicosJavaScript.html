@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF -8">
+  <meta name="vieport" content="width=device-width,initial-scale=1.0">
+  <title>Fundamentos JavaScript</title>
+</head>
+
+<body>
+  <h1>Fundamentos JavaScript</h1>
+  <h2>3 Variables LET y VAR</h2>
+  <h2>4 Constantes</h2>
+  <h2>5 Cadenas de Texto (Strings)</h2>
+  <h2>6 Plantillas de Cadenas de Texto (Template Strings)</h2>
+  <h2>7 Numeros</h2>
+  <h2>8 Booleanos</h2>
+  <h2>9 Undefined , null, NaN</h2>
+  <h2>10 Principios de funciones de JavaScript</h2>
+  <h2>11 Arreglos</h2>
+  <h2>12 Objetos</h2>
+
+  <script>
+    {/***********     Curso JavaScript: 3. Variables LET y VAR (const)     ***********/
+      console.log("**********     Curso JavaScript: 3. Variables LET y VAR     ********** *");
+      var hola = "Hola Mundo";
+      let hello = "Hello World";
+      console.log(hola);
+      console.log(hello);
+      console.log(window);
+      console.log(window.hola);
+      console.log(window.hello);
+      //Ambito de Bloque
+      console.log("****************VAR******************");
+      var musica = "Rock"
+      console.log("Variable Musica antes del bloque", musica);
+      {
+        var musica = "Pop"
+        console.log("Variable Musica dentro del bloque", musica);
+      }
+      console.log("Variable Musica despues del Bloque", musica);
+      console.log("*****************LET*****************");
+      let musica2 = "Rock"
+      console.log("Variable Musica antes del bloque", musica2);
+      {
+        let musica2 = "Pop"
+        console.log("Variable Musica dentro del bloque", musica2);
+      }
+      console.log("Variable Musica despues del Bloque", musica2);
+      // Esto es un bloque
+      /*Esto es un comentario
+       de varias
+      lineas
+    */
+    }
+
+    {/***********     Curso JavaScript: 4. Constantes (const)     ***********/
+      console.log("**********     Curso JavaScript: 4. Constantes (const)     ********** *");
+
+      let a;
+      const PI = 3.1416
+      const NUEVE = 9
+      console.log(PI)
+
+      a = "kenai";
+      console.log(a);
+
+      const objeto = {
+        nombre: "Juan",
+        edad: 36
+      }
+
+      const colores = ["blanco", "negro", "azul"]
+
+      console.log(objeto, colores);
+
+      objeto.correo = "juan@gmail.com";
+      colores.push("anaranjado");
+
+      console.log(objeto, colores);
+    }
+
+    {/***********     Curso JavaScript: 5. Cadenas de texto (Strings)     ***********/
+      console.log("***** Curso JavaScript: 5. Cadenas de Texto (Strings) *****");
+      let nombre = "Juan";
+      let apellido = 'Cortes';
+      let saludo = new String("Hola a Todos") //Esta es la manera "Formal" de declarar con el constructor new
+      let lorem = "Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis non hendrerit, diam praesent feugiat nunc etiam eleifend parturient rhoncus tempus sodales et, cum risus tincidunt blandit vestibulum egestas mus nam enim."
+      console.log(nombre, apellido, saludo)
+
+      console.log(
+        nombre.length,//estas son propiedades
+        apellido.length,
+        saludo.length,
+        nombre.toUpperCase(), // Estos son metodos
+        apellido.toLowerCase(),
+        lorem.includes("amet"),
+        lorem.includes("Juan"),
+        lorem.trim(),
+        lorem.split(" "),
+
+      );
+    }
+
+    {/***********     Curso JavaScript: 6. Plantillas de Cadenas de texto (Tamplate Strings)     ***********/
+      console.log("***** Curso JavaScript: 6. Plantillas de Cadenas de Texto (Template Strings) *****");
+      let nombre2 = "Juan";
+      let apellido2 = 'Cortes';
+
+      //Concatenacion
+      let saludo2 = "Hola mi nombre es " + nombre2 + " " + apellido2
+      console.log(saludo2)
+
+      //Interpolacion de variables
+      //Template String
+      let saludo3 = `Hola mi nombre es  ${nombre2} ${apellido2}.`
+      console.log(saludo3)
+
+      let ul = "< ul ><li>Primavera</li><li>Verano</li><li>Otoño</li><li>Invierno</li></ul >"
+
+      console.log(ul)
+
+      let ul2 = `
+    < ul >
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ul >`;
+
+      console.log(ul2);
+
+      let ul3 = "<ul>";
+      ul3 += "<li>Primavera</li>";
+      ul3 += "<li>Verano</li>";
+      ul3 += "<li>Otoño</li>";
+      ul3 += "<li>Invierno</li>";
+      ul3 += "</ul >";
+    }
+
+    {/***********     Curso JavaScript: 7. Numeros     ***********/
+      console.log("***** Curso JavaScript: 7. Numeros *****");
+
+      let a = 2;
+      let b = new Number(1);
+      let c = 7.19;
+      let d = "5.6"
+
+      console.log(a, b,);
+      console.log(c.toFixed(1)); // Este metodo sirve para indicar y "redondear" la cantidad de decimales
+      console.log(c.toFixed(5));
+      console.log(parseInt(c));
+      console.log(parseFloat(c));
+      console.log(typeof c, typeof d);
+      console.log(a + b);
+      console.log(c + d);
+      console.log(c + parseInt(d));
+      console.log(c + parseFloat(d));
+
+    }
+
+    {/***********     Curso JavaScript: 8. Booleanos     ***********/
+      console.log("***** Curso JavaScript: 8. Booleanos *****");
+
+      let verdadero = true
+      let falso = false
+
+      let v = Boolean(true);
+      let f = Boolean(false);
+
+      console.log(verdadero, falso);
+      console.log(typeof verdadero, typeof falso);
+      console.log(v, f);
+      console.log(Boolean(0));
+      console.log(Boolean(-7));
+      console.log(Boolean(""));
+      console.log(Boolean(" "));
+    }
+
+    {/***********     Curso JavaScript: 9. Undefined , null, NaN     ***********/
+      console.log("***** Curso JavaScript: 9. Undefined , null, NaN *****");
+
+      //undefined indica que no se ha inicializado una variable y que el valor esta ausente
+      let indefinida;
+      console.log(indefinida);
+
+      //null es un valor especial que indica la ausencia de un valor
+      let nulo = null;
+      console.log(null);
+
+      //NaN significa "Not a Number" 
+      let noEsUnNumero = "Hola" * 3.7;
+      console.log(noEsUnNumero);
+    }
+
+    {/***********     Curso JavaScript: 10. Funciones     ********** */
+      console.log("***** Curso JavaScript: 10. Funciones *****");
+      /*
+        Una función es un bloque de código, autocontenido, que se puede definir una vez y ejecutar en cualquier momento. Opcionalmente, una función puede aceptar parámetros y devolver un valor.
+        Las funciones en JavaScript son objetos, un tipo especial de objetos:
+        Se dice que las funciones son ciudadanos de primera clase porque pueden asignarse a un valor, y pueden pasarse como argumentos y usarse como un valor de retorno.
+        */
+
+      //Funcione Declarada
+
+      function estoEsUnaFuncion(params) {
+        console.log("Uno")
+        console.log("Dos")
+        console.log("Tres")
+      }
+      //Invocacion de Funciones
+      estoEsUnaFuncion();
+      estoEsUnaFuncion();
+      estoEsUnaFuncion();
+      estoEsUnaFuncion();
+
+      function unaFuncionQueDevuelveValor() {
+        console.log("Cuatro");
+        return 19;
+        console.log("Cinco");
+        console.log("Seis");
+        return "La Funcion ha devuelto un valor tipo string";
+      }
+
+      let valorDeFuncion = unaFuncionQueDevuelveValor();
+
+      console.log(valorDeFuncion);
+
+      //Parametros en una Funcion
+
+      function saludar(nombre = "desconocido", edad = 0) {
+
+        console.log(`Hola mi nombre es ${nombre} y tengo ${edad} años.`);
+      }
+      saludar("kenai", 7);
+      saludar();
+
+      //Funciones declaradas vs Funciones Expresadas
+
+      funcionDeclarada();
+
+      function funcionDeclarada() {
+        console.log("esto es una funcion declarada, puede invocarse en cualquier parte de nuestro codigo incluso antes de que la funcion sea declarada");
+      }
+      funcionDeclarada();
+
+      //Función Anónima
+      //funcionExpresada(); aqui 
+      const funcionExpresada = function () {
+        console.log("Esto es una funcion expresada, es decir una funcion que se le ha asignado a una variable, si invocamos esta funcion antes de su definicion JavaScript nos dira...... Uncaught ReferenceError: Cannot access 'funcionExpresada' before initialization")
+      }
+      funcionExpresada();
+
+
+
+    }
+
+    {/***********     Curso JavaScript: 11. Arreglos(Arrays)     ********** */
+      console.log("***** Curso JavaScript: 11. Arreglos(Arrays) *****");
+
+      const a = [];
+      const b = [2, true, "Uno", ["a", "b", "c", [1, 2, 3, 4, 5]]];
+      console.log(a);
+      console.log(b);
+      console.log(b.length);
+      console.log(b[2]);
+      console.log(b[3][3][2]);
+
+      const c = Array.of("x", "y", "z", 7, 8, 9)
+      console.log(c)
+
+      const d = Array(10).fill(true)
+      console.log(d)
+
+      const e = new Array();
+      console.log(e);
+
+      const f = new Array(1, 2, 3, false, true)
+      console.log(f)
+
+      const colores = ["Rojo", "Verde", "Azul"];
+      console.log(colores);
+
+      colores.push("Negro");
+      console.log(colores);
+
+      colores.pop();
+      console.log(colores);
+
+      colores.forEach(function (el, index) {
+        console.log(`<li id="${index}">${el}</li>`)
+      });
+
+    }
+
+    {/***********     Curso JavaScript: 12. Objetos     ********** */
+      console.log("***** Curso JavaScript: 12. Objetos *****");
+
+      let a = new String("Hola");
+      //console.log(a)
+
+      const b = {};
+      console.log(a);
+
+      const c = new Object();
+      console.log(c);
+
+      /*Dentro de un objeto a las variables se les llama atributos/Propiedades y a las funciones se les llama metodos*/
+      const juan = {
+        nombre3: "Juan",
+        apellido3: "Cortes",
+        edad3: "36",
+        pasatiempo: ["programar", "Correr", "Gaming"],
+        Soltero: false,
+        contacto: {
+          email: "juan@gmail.com",
+          twiter: "@manuelCortes",
+          movil: "3313578846"
+        },
+        saludar: function () {
+          console.log(`Hola :)`)
+        },
+        decirMiNombre: function () {
+          console.log(`Hola me llamo ${this.nombre3} ${this.apellido3}, tengo ${this.edad3} años y me puedes seguir como ${this.contacto.twiter} en Twitter`)
+        },
+      }
+
+      console.log(juan);
+      console.log(juan["nombre3"]);
+      console.log(juan["apellido3"]);
+      console.log("Estado Civil Soltero" + " " + juan.Soltero);
+      console.log(juan.pasatiempo[2]);
+      console.log(juan.contacto);
+      juan.saludar();
+      juan.decirMiNombre();
+      console.log(Object.keys(juan));
+      console.log(Object.values(juan));
+      console.log(juan.hasOwnProperty("nombre3"));
+      console.log(juan.hasOwnProperty("fecha"));
+    }
+
+  </script>
+</body>
+
+</html>
