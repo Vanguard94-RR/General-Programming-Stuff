@@ -2,6 +2,7 @@ from tkinter import *
 import math
 
 # ---------------------------- CONSTANTS ------------------------------- #
+
 PINK = "#e2979c"
 RED = "#e7305b"
 GREEN = "#9bdeac"
@@ -63,6 +64,9 @@ def count_down(count):
             marks += "✓"
         check_marks.config(text=marks)
 
+def on_closing():
+    window.destroy()
+
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -89,4 +93,5 @@ check_marks = Label(text="✓", fg=GREEN, bg=YELLOW)
 check_marks.grid(column=1, row=3)
 
 
+window.protocol("WM_DELETE_WINDOW", on_closing)
 window.mainloop()
