@@ -2,3 +2,172 @@ Curriculum Vitae Juan Manuel Cortes Servicio Tecnico.pdf
 Logros Juan Manuel Cortes.pdf
 desktop.ini
 Personal (web).url
+CursoReact/react-basicos/.gitignore
+CursoReact/react-basicos/package-lock.json
+CursoReact/react-basicos/package.json
+CursoReact/react-basicos/README.md
+CursoReact/react-basicos/public/favicon.ico
+CursoReact/react-basicos/public/index.html
+CursoReact/react-basicos/public/logo192.png
+CursoReact/react-basicos/public/logo512.png
+CursoReact/react-basicos/public/manifest.json
+CursoReact/react-basicos/public/robots.txt
+CursoReact/react-basicos/src/App.css
+CursoReact/react-basicos/src/App.js
+CursoReact/react-basicos/src/App.test.js
+CursoReact/react-basicos/src/index.css
+CursoReact/react-basicos/src/index.js
+CursoReact/react-basicos/src/logo.svg
+CursoReact/react-basicos/src/reportWebVitals.js
+CursoReact/react-basicos/src/setupTests.js
+.gitignore
+CV/Juan-Manuel-Cortes-IT-Profile-C.docx
+CV/Juan-Manuel-Cortes-It-Profile-C.pdf
+My Games/They Are Billions/Account.zxuser
+My Games/They Are Billions/Configuration.txt
+My Games/They Are Billions/ZXLog.txt
+My Games/They Are Billions/Saves/Survival.zxcheck
+My Games/They Are Billions/Saves/Survival.zxsav
+Pomodoro App Qt5/_asyncio.pyd
+Pomodoro App Qt5/_bz2.pyd
+Pomodoro App Qt5/_ctypes.pyd
+Pomodoro App Qt5/_decimal.pyd
+Pomodoro App Qt5/_hashlib.pyd
+Pomodoro App Qt5/_lzma.pyd
+Pomodoro App Qt5/_multiprocessing.pyd
+Pomodoro App Qt5/_overlapped.pyd
+Pomodoro App Qt5/_queue.pyd
+Pomodoro App Qt5/_socket.pyd
+Pomodoro App Qt5/_ssl.pyd
+Pomodoro App Qt5/api-ms-win-core-console-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-datetime-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-debug-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-errorhandling-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-file-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-file-l1-2-0.dll
+Pomodoro App Qt5/api-ms-win-core-file-l2-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-handle-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-heap-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-interlocked-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-libraryloader-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-localization-l1-2-0.dll
+Pomodoro App Qt5/api-ms-win-core-memory-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-namedpipe-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-processenvironment-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-processthreads-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-processthreads-l1-1-1.dll
+Pomodoro App Qt5/api-ms-win-core-profile-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-rtlsupport-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-string-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-synch-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-synch-l1-2-0.dll
+Pomodoro App Qt5/api-ms-win-core-sysinfo-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-timezone-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-core-util-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-conio-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-convert-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-environment-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-filesystem-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-heap-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-locale-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-math-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-process-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-runtime-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-stdio-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-string-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-time-l1-1-0.dll
+Pomodoro App Qt5/api-ms-win-crt-utility-l1-1-0.dll
+Pomodoro App Qt5/AUTHOR
+Pomodoro App Qt5/base_library.zip
+Pomodoro App Qt5/libEGL.dll
+Pomodoro App Qt5/libffi-7.dll
+Pomodoro App Qt5/libssl-1_1.dll
+Pomodoro App Qt5/LICENSE
+Pomodoro App Qt5/MSVCP140_1.dll
+Pomodoro App Qt5/MSVCP140.dll
+Pomodoro App Qt5/pomodoro.exe
+Pomodoro App Qt5/pomodoro.exe.manifest
+Pomodoro App Qt5/pyexpat.pyd
+Pomodoro App Qt5/python3.dll
+Pomodoro App Qt5/python38.dll
+Pomodoro App Qt5/Qt5Core.dll
+Pomodoro App Qt5/Qt5DBus.dll
+Pomodoro App Qt5/Qt5Gui.dll
+Pomodoro App Qt5/Qt5QmlModels.dll
+Pomodoro App Qt5/Qt5Svg.dll
+Pomodoro App Qt5/Qt5WebSockets.dll
+Pomodoro App Qt5/Qt5Widgets.dll
+Pomodoro App Qt5/Qt5WinExtras.dll
+Pomodoro App Qt5/README.md
+Pomodoro App Qt5/select.pyd
+Pomodoro App Qt5/unicodedata.pyd
+Pomodoro App Qt5/VCRUNTIME140_1.dll
+Pomodoro App Qt5/VCRUNTIME140.dll
+Pomodoro App Qt5/Include/pyconfig.h
+Pomodoro App Qt5/PyQt5/QtCore.pyd
+Pomodoro App Qt5/PyQt5/QtGui.pyd
+Pomodoro App Qt5/PyQt5/QtWidgets.pyd
+Pomodoro App Qt5/PyQt5/QtWinExtras.pyd
+Pomodoro App Qt5/PyQt5/sip.cp38-win_amd64.pyd
+Pomodoro App Qt5/PyQt5/Qt/plugins/iconengines/qsvgicon.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qgif.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qicns.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qico.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qjpeg.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qsvg.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qtga.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qtiff.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qwbmp.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/imageformats/qwebp.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/platforms/qminimal.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/platforms/qoffscreen.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/platforms/qwebgl.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/platforms/qwindows.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/platformthemes/qxdgdesktopportal.dll
+Pomodoro App Qt5/PyQt5/Qt/plugins/styles/qwindowsvistastyle.dll
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_ar.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_bg.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_ca.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_cs.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_da.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_de.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_en.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_es.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_fi.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_fr.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_gd.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_he.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_hu.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_it.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_ja.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_ko.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_lv.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_pl.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_ru.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_sk.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_uk.qm
+Pomodoro App Qt5/PyQt5/Qt/translations/qtbase_zh_TW.qm
+Pomodoro App Qt5/pomodoro/__init__.py
+Pomodoro App Qt5/pomodoro/const.py
+Pomodoro App Qt5/pomodoro/pomodoro.py
+Pomodoro App Qt5/pomodoro/util.py
+Pomodoro App Qt5/pomodoro/__pycache__/__init__.cpython-38.pyc
+Pomodoro App Qt5/pomodoro/__pycache__/const.cpython-38.pyc
+Pomodoro App Qt5/pomodoro/__pycache__/pomodoro.cpython-38.pyc
+Pomodoro App Qt5/pomodoro/__pycache__/util.cpython-38.pyc
+Pomodoro App Qt5/pomodoro/data/icons/check.png
+Pomodoro App Qt5/pomodoro/data/icons/exit.png
+Pomodoro App Qt5/pomodoro/data/icons/README.md
+Pomodoro App Qt5/pomodoro/data/icons/statistics.png
+Pomodoro App Qt5/pomodoro/data/icons/tasks.png
+Pomodoro App Qt5/pomodoro/data/icons/timer.png
+Pomodoro App Qt5/pomodoro/data/icons/tomato.ico
+Pomodoro App Qt5/pomodoro/data/icons/tomato.png
+Pomodoro App Qt5/pomodoro/data/icons/trash.png
+StandOut_CV_Job_Tracker.xlsx
+CursoSQL/CLIENTES.ods
+CursoSQL/Gestion_Pedidos_Ejercicios.accdb
+CursoSQL/PEDIDOS.ods
+CursoSQL/PRODUCTOS.ods
+CursoSQL/ProductosNuevos.ods
+CursoSQL/SQL-Commands-Cheat-Sheet.pdf
