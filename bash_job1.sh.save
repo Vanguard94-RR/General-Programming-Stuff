@@ -1,0 +1,4 @@
+/home/manuel/Documents/Programming/GitHubRep#!/bin/bash
+echo "Executing python file"
+
+python3 #Estrella Multicolor en Python.py
