@@ -15,5 +15,5 @@ func main() {
 		[4]string{"1992", "1994", "1986", "1984"},
 	}
 	fmt.Println(array1)
-	fmt.Println(array1[0][0], array1[3][3])
+	fmt.Println(array1[0][0], array1[3][3], array1[1][1])
 }
